@@ -31,7 +31,7 @@ void printVec(const vector<string>& vs) {
     cout << endl;
 }
 
-void testHashTable_Eric()
+void testHashTable()
 {
     vector<string> vs;
     string filename = "wordlist1000.txt";
@@ -94,7 +94,7 @@ void testHashTable_Eric()
     cout << endl;
     cout << endl;
 }
-void testspellcheck_Eric()
+void testspellcheck()
 {
     vector<string> vs;
     string filename = "wordlist1000.txt";
@@ -191,8 +191,8 @@ void testspellcheck_Eric()
 }
 
 int main() {
-    testHashTable_Eric(); 
-    testspellcheck_Eric();
+    testHashTable(); 
+    testspellcheck();
     system("pause");
     return 0;
 }
